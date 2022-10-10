@@ -7,23 +7,13 @@ using System.Threading.Tasks;
 using ConectarBd;
 namespace AccesoDatosAutomotriz
 {
-    public class AccesoPermisos:IAutomotriz
+    public class AccesoPermisos
     {
         Base b = new Base("localhost","root","","automotriz");
 
-        public void Borrar(dynamic entidad)
+        public void SeleccionPermisos(dynamic entidad)
         {
-            b.Comando(string.Format("CALL DeletePermisos()"))
-        }
-
-        public void Guardar(dynamic entidad)
-        {
-            throw new NotImplementedException();
-        }
-
-        public DataSet Mostrar(string filtro)
-        {
-            throw new NotImplementedException();
+            b.Comando(string.Format("CALL Seleccion({0}, {1})", entidad.FkIdUsuarios, entidad.Seleccion));
         }
     }
 }

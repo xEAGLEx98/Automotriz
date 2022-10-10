@@ -35,6 +35,7 @@
       <HintPath>..\..\..\..\..\..\ConectarBd.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,11 +46,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoHerramientas.cs" />
+    <Compile Include="AccesoLogIN.cs" />
     <Compile Include="AccesoPermisos.cs" />
     <Compile Include="AccesoProductos.cs" />
     <Compile Include="AccesoUsuarios.cs" />
     <Compile Include="IAutomotriz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesAutomotriz\EntidadesAutomotriz.csproj">
+      <Project>{b451285c-16ce-4c7a-be9a-17d3e3ef26dc}</Project>
+      <Name>EntidadesAutomotriz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
