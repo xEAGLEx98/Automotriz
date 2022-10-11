@@ -12,8 +12,17 @@ namespace AccesoDatosAutomotriz
 {
     public class AccesoLogIN
     {
-        Usuarios u;
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
-        public DataTable Login(a)
+        public DataTable Login(Usuarios obje)
+        {
+            SqlCommand cmd = new SqlCommand("", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("", obje.Nombre);
+            cmd.Parameters.AddWithValue("", obje.Pass);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dtable1 = new DataTable();
+            da.Fill(dtable1);
+            return dtable1;
+        }
     }
 }
