@@ -14,6 +14,6 @@ namespace AccesoDatosAutomotriz
     {
         Usuarios u;
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
-        public DataTable Login(a)
+        
     }
 }
