@@ -13,6 +13,7 @@ namespace AccesoDatosAutomotriz
     public class AccesoLogIN
     {
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
+<<<<<<< HEAD
         public DataTable Login(Usuarios obje)
         {
             SqlCommand cmd = new SqlCommand("", cn);
@@ -24,5 +25,8 @@ namespace AccesoDatosAutomotriz
             da.Fill(dtable1);
             return dtable1;
         }
+=======
+        
+>>>>>>> bajas
     }
 }

@@ -11,7 +11,7 @@ namespace PresentacionesAutomotrizx
         [STAThread]
         static void Main()
         {
-            Application.Run(new FrmLogin()); 
+            Application.Run(new FrmProductos()); 
         }
     }
 }
