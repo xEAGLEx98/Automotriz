@@ -16,6 +16,7 @@ namespace PresentacionesAutomotrizx
         int columna = 0, fila = 0;
         public static Productos producto = new Productos(0, "", "", "", "");
         ManejadoresProductos mp;
+        public static bool[,] permisos = FrmMenu.permisos;
         public FrmProductos()
         {
             InitializeComponent();
@@ -40,12 +41,25 @@ namespace PresentacionesAutomotrizx
             switch (columna)
             {
                 case 5: {
-                        FrmProductosAdd a = new FrmProductosAdd();
-                        a.ShowDialog();
-                        Actualizar();
+                        if (permisos[0, 2] == false)
+                            MessageBox.Show("No tienes permisos");
+                        else
+                        {
+                            FrmProductosAdd a = new FrmProductosAdd();
+                            a.ShowDialog();
+                            Actualizar();
+                        }
+                        
                     }break;
-                case 6: { mp.Borrar(producto);
-                        Actualizar();
+                case 6: {
+                        if (permisos[0, 3] == false)
+                            MessageBox.Show("No tienes permisos");
+                        else
+                        {
+                            mp.Borrar(producto);
+                            Actualizar();
+                        }
+                        
                     }break;
             }
         }
@@ -57,9 +71,18 @@ namespace PresentacionesAutomotrizx
 
         private void btnAñadir_Click(object sender, EventArgs e)
         {
-            producto.IdProductos = -1;
-            FrmProductosAdd a = new FrmProductosAdd();
-            a.ShowDialog();
+            if (permisos[0, 1] == false)
+                MessageBox.Show("No tienes permisos");
+            else
+            {
+                producto.IdProductos = -1;
+                FrmProductosAdd a = new FrmProductosAdd();
+                a.ShowDialog();
+            }
+                
+          
+            
+
         }
 
         private void dgvProductos_CellEnter(object sender, DataGridViewCellEventArgs e)

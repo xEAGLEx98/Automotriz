@@ -33,3 +33,6 @@ C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\bin
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\bin\Debug\PresentacionesAutomotrizx.exe
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\obj\Debug\PresentacionesAutomotrizx.exe.config
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\obj\Debug\PresentacionesAutomotrizx.exe
+C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\obj\Debug\PresentacionesAutomotrizx.FrmHerramientas.resources
+C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\obj\Debug\PresentacionesAutomotrizx.FrmHerramientasAdd.resources
+C:\Users\pc\source\repos\PresentacionesAutomotrizx\PresentacionesAutomotrizx\obj\Debug\PresentacionesAutomotrizx.Properties.Resources.resources

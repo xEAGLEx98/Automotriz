@@ -3,7 +3,6 @@ C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Deb
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\AccesoDatosAutomotriz.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\Crud.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\ConectarBd.dll
-C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\EntidadesAutomotriz.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\MySql.Data.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\Google.Protobuf.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\ZstdNet.dll
@@ -17,7 +16,6 @@ C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Deb
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\AccesoDatosAutomotriz.pdb
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\Crud.pdb
-C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\EntidadesAutomotriz.pdb
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\bin\Debug\MySql.Data.xml
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\obj\Debug\ManejadoresAutomotriz.csproj.AssemblyReference.cache
 C:\Users\pc\source\repos\PresentacionesAutomotrizx\ManejadoresAutomotriz\obj\Debug\ManejadoresAutomotriz.csproj.CoreCompileInputs.cache

@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoHerramientas.cs" />
-    <Compile Include="AccesoLogIN.cs" />
     <Compile Include="AccesoPermisos.cs" />
     <Compile Include="AccesoProductos.cs" />
     <Compile Include="AccesoUsuarios.cs" />

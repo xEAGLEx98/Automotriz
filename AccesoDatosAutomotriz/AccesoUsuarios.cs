@@ -27,5 +27,9 @@ namespace AccesoDatosAutomotriz
         {
            return b.Obtener(String.Format("CALL ShowUsuarios('%{0}%')", filtro), "usuarios");
         }
+        public DataSet Login(string usuario)
+        {
+            return b.Obtener(string.Format("select * from usuarios where nombre = '{0}'", usuario), "usuarios");
+        }
     }
 }

@@ -15,5 +15,9 @@ namespace AccesoDatosAutomotriz
         {
             b.Comando(string.Format("CALL Seleccion({0}, {1})", entidad.FkIdUsuarios, entidad.Seleccion));
         }
+        public DataSet ExtraerPermisos(int idUsuario)
+        {
+            return b.Obtener(string.Format("select * from permisos where fkidusuario = {0}", idUsuario), "permisos");
+        }
     }
 }

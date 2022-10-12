@@ -29,6 +29,7 @@ namespace PresentacionesAutomotrizx
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProductosAdd));
             this.label1 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -47,6 +48,7 @@ namespace PresentacionesAutomotrizx
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(313, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 20);
@@ -55,6 +57,7 @@ namespace PresentacionesAutomotrizx
             // 
             // btnCerrar
             // 
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(739, 3);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(40, 40);
@@ -64,6 +67,7 @@ namespace PresentacionesAutomotrizx
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Violet;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -139,9 +143,10 @@ namespace PresentacionesAutomotrizx
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(452, 202);
+            this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
+            this.btnGuardar.Location = new System.Drawing.Point(446, 197);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(111, 40);
+            this.btnGuardar.Size = new System.Drawing.Size(70, 44);
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);

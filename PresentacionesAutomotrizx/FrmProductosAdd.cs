@@ -20,10 +20,10 @@ namespace PresentacionesAutomotrizx
             mp = new ManejadoresProductos();
             if(FrmProductos.producto.IdProductos>0)
             {
-                FrmProductos.producto.Nombre = txtNombre.Text;
-                FrmProductos.producto.CodigoBarras = txtCodigoBarras.Text;
-                FrmProductos.producto.Descripcion = txtDescripcion.Text;
-                FrmProductos.producto.Marca = txtMarca.Text;
+                txtNombre.Text= FrmProductos.producto.Nombre;
+                txtCodigoBarras.Text=FrmProductos.producto.CodigoBarras;
+                 txtDescripcion.Text=FrmProductos.producto.Descripcion;
+                 txtMarca.Text=FrmProductos.producto.Marca;
 
             }
         }

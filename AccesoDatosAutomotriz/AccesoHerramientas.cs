@@ -18,8 +18,8 @@ namespace AccesoDatosAutomotriz
 
         public void Guardar(dynamic entidad)
         {
-            b.Comando(string.Format("CALL InsertHerramientas('{0}' '{1}' , {2} , '{3}' , '{4}' , {5})",
-                entidad.CodigoHerramientas, entidad.Nombre, entidad.Medida, entidad.Marca, entidad.Descripcion,
+            b.Comando(string.Format("CALL InsertHerramientas('{0}', '{1}' , {2} , '{3}' , '{4}' , {5})",
+                entidad.CodigoHerramienta, entidad.Nombre, entidad.Medida, entidad.Marca, entidad.Descripcion,
                 entidad.IdHerramientas));
         }
 
