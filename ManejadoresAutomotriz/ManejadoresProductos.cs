@@ -14,7 +14,7 @@ namespace ManejadoresAutomotriz
         Grafica g = new Grafica();
         AccesoProductos ap = new AccesoProductos();
 
-        public void Borrar(dynamic entidad)
+        public void Borrar(dynamic entidad)//oii
         {
             DialogResult dr = MessageBox.Show(String.Format("¿Estás seguro de eliminar este registro?",
                entidad.Nombre), "!ATENCIÓN", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
