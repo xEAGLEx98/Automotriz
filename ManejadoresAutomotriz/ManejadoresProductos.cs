@@ -11,6 +11,7 @@ namespace ManejadoresAutomotriz
 {
     public class ManejadoresProductos:IAutomotriz
     {
+        //PRUEBA 2
         //Prueba
         Grafica g = new Grafica(); //Biblioteca de clases usada para los botones
         AccesoProductos ap = new AccesoProductos(); //TE AMO 
