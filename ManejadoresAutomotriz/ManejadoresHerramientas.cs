@@ -10,6 +10,7 @@ using System.Drawing;
 
 namespace ManejadoresAutomotriz
 {
+    //Feliz cumpleaños
     public class ManejadoresHerramientas:IAutomotriz
     {
         AccesoHerramientas ah = new AccesoHerramientas();
