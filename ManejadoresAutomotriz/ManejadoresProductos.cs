@@ -12,7 +12,7 @@ namespace ManejadoresAutomotriz
     public class ManejadoresProductos:IAutomotriz
     {
         Grafica g = new Grafica(); //Biblioteca de clases usada para los botones
-        AccesoProductos ap = new AccesoProductos();
+        AccesoProductos ap = new AccesoProductos(); //TE AMO 
 
         public void Borrar(dynamic entidad)
         {
